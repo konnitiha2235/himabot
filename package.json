@@ -1,0 +1,19 @@
+{
+  "name": "line-word-counter-bot",
+  "version": "1.0.0",
+  "description": "LINEのトークルームで発言された特定ワードの出現回数をカウントして返信するBot",
+  "main": "index.js",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "dependencies": {
+    "@line/bot-sdk": "^11.0.0",
+    "dotenv": "^16.6.1",
+    "express": "^4.19.2",
+    "node-cron": "^4.6.0"
+  }
+}
